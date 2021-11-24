@@ -127,11 +127,11 @@ struct KdTree3D
 			uint index = depth % 3;
 
 			if ( ( target[index] - distanceTol ) < node->point.coords[ index ] ) {
-				searchHelper( ids, node->left, target, distanceTol, ++depth );
+				searchHelper( ids, node->left, target, distanceTol, depth + 1 );
 			}
 
 			if ( ( target[index] + distanceTol ) > node->point.coords[ index ]) {
-				searchHelper( ids, node->right, target, distanceTol, ++depth );
+				searchHelper( ids, node->right, target, distanceTol, depth + 1 );
 			}
 
 		}
