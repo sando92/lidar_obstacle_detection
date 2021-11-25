@@ -14,8 +14,8 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
   // -----Open 3D viewer and display City Block     -----
   // ----------------------------------------------------
 
-    bool b_renderPointClouds = true;
-    bool b_render_seg_plane = false;
+    bool b_renderPointClouds = false;
+    bool b_render_seg_plane = true;
     bool b_render_seg_obstacles = false;
     bool b_render_clusters = true;
     bool b_render_boxes = true;
