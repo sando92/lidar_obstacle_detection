@@ -18,15 +18,15 @@ Retrieve the source code:
 git clone https://github.com/sando92/lidar_obstacle_detection.git
 ```
 
-Create the build directory at root:
+Create the build directory at root and enter it:
 ```
 cd lidar_obstacle_detection
 mkdir build
+cd build
 ```
 
-Enter build directory and ompile the project:
+Compile the project:
 ```
-cd build
 cmake .. && make
 ```
 
