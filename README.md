@@ -11,6 +11,12 @@ From input pcd, the code:
 
 ![Obstacles detection result](obstacles_detection.png)
 
+# Dependencies
+
+- [PCL](https://pointclouds.org/downloads/)
+- [Eigen](https://pointclouds.org/downloads/)
+- [Boost](https://www.boost.org/users/download/)
+
 # Compile and run
 
 Retrieve the source code:
