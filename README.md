@@ -10,3 +10,27 @@ From input pcd, the code:
   - Draws Boxes around each detected clusters.
 
 ![Obstacles detection result](obstacles_detection.png)
+
+# Compile and run
+
+Retrieve the source code:
+```
+git clone https://github.com/sando92/lidar_obstacle_detection.git
+```
+
+Create the build directory at root:
+```
+cd lidar_obstacle_detection
+mkdir build
+```
+
+Enter build directory and ompile the project:
+```
+cd build
+cmake .. && make
+```
+
+And finally run it:
+```
+./environment
+```
