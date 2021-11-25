@@ -28,8 +28,6 @@ public:
     //deconstructor
     ~ProcessPointClouds();
 
-    void numPoints(typename pcl::PointCloud<PointT>::Ptr cloud);
-
     typename pcl::PointCloud<PointT>::Ptr FilterCloud(typename pcl::PointCloud<PointT>::Ptr cloud, float filterRes, Eigen::Vector4f minPoint, Eigen::Vector4f maxPoint);
 
     //Bounding box functions
